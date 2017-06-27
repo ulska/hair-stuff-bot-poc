@@ -1,0 +1,4 @@
+project=wella_bot_poc
+architecture=container
+test=minitest
+template=erb
