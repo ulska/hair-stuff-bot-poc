@@ -1,9 +1,13 @@
 en:
+  messages:
+    mixing: 'MIXING AND RATIO INFORMATION FOR %{name} - %{sub_name}:'
+    application: 'APPLICATION INSTRUCTIONS FOR %{name} - %{sub_name}:'
+    nothing_found: 'No matching products found :( Try again!'
   products:
     - id: 'color_renew'
       name: 'Color Renew'
       sub_name: 'The zero damage color reducer'
-      image_url: 'https://www.wella.com/professional/m/_master/products/Color%20Renew/Wella-Color-Renew-product_d.png'
+      image_url: 'http://i.imgur.com/Op9ThXm.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/color_renew'
       pdf_url: 'https://www.wella.com/professional/m/_enus/products/color_renew/Color-Renew-Tech-Guide.pdf'
       mixing: >
@@ -21,7 +25,7 @@ en:
     - id: 'koleston_perfect'
       name: 'Koleston Perfect'
       sub_name: 'The professional hair product'
-      image_url: 'https://www.wella.com/professional/m/_master/products/koleston_perfect/Packshots/KP-Base-group-packshot_d.png'
+      image_url: 'http://i.imgur.com/xlZuDG8.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/koleston_perfect'
       pdf_url: 'https://www.wella.com/professional/m/_master/products/koleston_perfect/Koleston-Perfect-fact-sheet.pdf'
       mixing:

@@ -7,6 +7,7 @@ gem 'hanami-controller'
 gem 'hanami-view'
 
 gem 'pg'
+gem 'sidekiq', '~> 4.0.2'
 gem 'facebook-messenger'
 
 gem 'hanami-assets'
