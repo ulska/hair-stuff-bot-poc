@@ -5,6 +5,7 @@ gem 'hanami',       '1.0.0.beta1'
 gem 'hanami-model', '~> 1.0.0.beta1'
 
 gem 'pg'
+gem 'facebook-messenger'
 
 group :development do
   # Code reloading
@@ -13,6 +14,7 @@ group :development do
 end
 
 group :test, :development do
+  gem 'pry'
   gem 'dotenv', '~> 2.0'
 end
 

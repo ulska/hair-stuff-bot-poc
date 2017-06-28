@@ -1,6 +1,9 @@
 require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
+require 'hanami/assets'
+require 'facebook/messenger'
+
 require_relative '../lib/wella_bot_poc'
 require_relative '../apps/web/application'
 
@@ -8,16 +11,6 @@ Hanami.configure do
   mount Web::Application, at: '/'
 
   model do
-    ##
-    # Database adapter
-    #
-    # Available options:
-    #
-    #  * SQL adapter
-    #    adapter :sql, 'sqlite://db/wella_bot_poc_development.sqlite3'
-    #    adapter :sql, 'postgresql://localhost/wella_bot_poc_development'
-    #    adapter :sql, 'mysql://localhost/wella_bot_poc_development'
-    #
     adapter :sql, ENV['DATABASE_URL']
 
     ##
@@ -47,3 +40,5 @@ Hanami.configure do
     end
   end
 end
+
+Hanami.boot

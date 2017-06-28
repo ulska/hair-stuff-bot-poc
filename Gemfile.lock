@@ -10,6 +10,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    coderay (1.1.1)
     concurrent-ruby (1.0.5)
     dotenv (2.2.1)
     dry-configurable (0.7.0)
@@ -46,6 +47,9 @@ GEM
       dry-equalizer (~> 0.2)
       dry-logic (~> 0.4, >= 0.4.0)
       dry-types (~> 0.9, >= 0.9.0)
+    facebook-messenger (0.11.1)
+      httparty (~> 0.13, >= 0.13.7)
+      rack (>= 1.6.4)
     hanami (1.0.0.beta1)
       bundler (~> 1.13)
       concurrent-ruby (~> 1.0)
@@ -92,18 +96,26 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     ice_nine (0.11.2)
     inflecto (0.0.2)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
+    method_source (0.8.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.2.0)
     minitest (5.10.2)
+    multi_xml (0.6.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     pg (0.21.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     public_suffix (2.0.5)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -134,6 +146,7 @@ GEM
     sequel (4.47.0)
     shotgun (0.9.2)
       rack (>= 1.0)
+    slop (3.6.0)
     thor (0.19.4)
     tilt (2.0.7)
     transproc (1.0.2)
@@ -148,10 +161,12 @@ PLATFORMS
 DEPENDENCIES
   capybara
   dotenv (~> 2.0)
+  facebook-messenger
   hanami (= 1.0.0.beta1)
   hanami-model (~> 1.0.0.beta1)
   minitest
   pg
+  pry
   rake
   shotgun
 
