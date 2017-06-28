@@ -66,6 +66,8 @@ GEM
       hanami-helpers (~> 1.0)
       hanami-utils (~> 1.0)
       tilt (~> 2.0, >= 2.0.2)
+    hanami-bootstrap (0.4.0)
+      hanami-assets (>= 0.2, < 2)
     hanami-controller (1.0.0)
       hanami-utils (~> 1.0)
       rack (~> 2.0)
@@ -163,7 +165,11 @@ DEPENDENCIES
   dotenv (~> 2.0)
   facebook-messenger
   hanami (= 1.0.0.beta1)
+  hanami-assets
+  hanami-bootstrap
+  hanami-controller
   hanami-model (~> 1.0.0.beta1)
+  hanami-view
   minitest
   pg
   pry

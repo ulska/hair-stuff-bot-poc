@@ -3,9 +3,14 @@ source 'https://rubygems.org'
 gem 'rake'
 gem 'hanami',       '1.0.0.beta1'
 gem 'hanami-model', '~> 1.0.0.beta1'
+gem 'hanami-controller'
+gem 'hanami-view'
 
 gem 'pg'
 gem 'facebook-messenger'
+
+gem 'hanami-assets'
+gem 'hanami-bootstrap'
 
 group :development do
   # Code reloading
