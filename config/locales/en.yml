@@ -1,0 +1,195 @@
+en:
+  products:
+    - id: 'color_renew'
+      name: 'Color Renew'
+      sub_name: 'The zero damage color reducer'
+      image_url: 'https://www.wella.com/professional/m/_master/products/Color%20Renew/Wella-Color-Renew-product_d.png'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/color_renew'
+      pdf_url: 'https://www.wella.com/professional/m/_enus/products/color_renew/Color-Renew-Tech-Guide.pdf'
+      mixing: >
+        RECOMMENDATION: Use Color Renew Crystal Powder in combination with Color
+        Renew Activator Liquid for optimal results.
+      ratio: >
+        RATIO: 1:10 - one 9g sachet of Color Renew Crystal Powder with 90 ml
+        of Activator Liquid or water in a bowl/applicator bottle.
+      application: >
+        Apply from roots to mid-lengths and ends (color build-up). Start with the darker areas first.
+        Develop from 5- 45 minutes depending on the desired color reduction service.
+        When re-coloring the hair rinse with water only. Dry thoroughly prior to color application.
+        Only when a mild cleansing of blondes/highlights/color is required without re-toning or re-coloring. Rinse, shampoo and condition as normal.
+        Add heat, use a HairSpa or Climazon where indicated.
+    - id: 'koleston_perfect'
+      name: 'Koleston Perfect'
+      sub_name: 'The professional hair product'
+      image_url: 'https://www.wella.com/professional/m/_master/products/koleston_perfect/Packshots/KP-Base-group-packshot_d.png'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/koleston_perfect'
+      pdf_url: 'https://www.wella.com/professional/m/_master/products/koleston_perfect/Koleston-Perfect-fact-sheet.pdf'
+      mixing:
+        - >
+          Combine with Koleston Perfect Crème Developer for outstanding, high-density results.
+          Koleston Perfect Base & Koleston Perfect Crème Developer (1:1).
+          Special Blonde shades ratio (1:2).'
+        - >
+          Koleston Perfect Crème Developer is the color partner for Koleston
+          Perfect Base & Innosense, Illumina Color, Blondor and Magma that ensures
+          optimal color development. Visit the individual product pages to get specific
+          recommendations and mixing ratios for the color product used.
+      ratio: >
+        3 levels of lift: 1 part Koleston Perfect, 1 part Koleston Perfect Crème Developer 12%
+        2 levels of lift: 1 part Koleston Perfect, 1 part Koleston Perfect Crème Developer 9%
+        1 level of lift/Coverage of gray/white same depth or darker: 1 part Koleston Perfect,
+        1 part Koleston Perfect Crème Developer 6%
+        Special Blonde: 1 part Koleston Perfect, 2 parts Koleston Perfect Crème Developer
+        9% for 3 levels of lift or 12% for 4/5 levels of lift
+      application:
+        - >
+          SAME DEPTH OR DARKENING:
+          Full-head color, first-time application: dampen the hair.
+          Distribute the color from roots to ends and evenly comb through.
+          Development time: - HEAT: 30–40 min / + HEAT*: 15–25 min
+        - >
+          LIGHTENING:
+          First Step: Full-head, first-time application, mid-lengths and ends : comb through on mid-lengths and ends.
+          Development time: - HEAT: 20 min / + HEAT*: 10 min
+          Second Step: Apply the coloring mixture to the roots.
+          Development time: - HEAT: 30–40 min / + HEAT*: 15–25 min
+          * Climazon
+    - id: 'illumina_color'
+      name: 'Illumina Color'
+      sub_name: 'Incredible light reflection'
+      image_url: 'https://www.wella.com/professional/m/_master/products/illumina_color/New-Visuals/Wella-GreyBlending-Color-IlluminaColor_d.png'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/illumina_color'
+      pdf_url: 'https://www.wella.com/professional/m/_master/products/illumina_color/New-Visuals/Luxe-Bronde-update/Illumina-color-technical-folder.pdf'
+      mixing: >
+        RECOMMENDATION:
+        Not recommended for mixing with Koleston Perfect
+        For example: 60ml ILLUMINA COLOR shade +
+        60ml  Koleston Perfect Crème Developer
+        Up to 100% grey coverage with sheer result
+      ratio: >
+        MIXING RATIO:
+        12% Koleston Perfect Crème Developer 40 Vol. 3 levels of lift
+        9% Koleston Perfect Crème Developer 30 Vol. 2 levels of lift
+        6% Koleston Perfect Crème Developer 20 Vol. 1 level of lift
+        Coverage of grey/white. Same depth or darker.
+        Plus 1 part ILLUMINA COLOR
+      application:
+        - >
+          SAME DETPH OR DARKENING FULL-HEAD COLOR
+          Apply the coloring mixture immediately from roots to ends.
+          Development time:
+          HEAT: 30-40 min/ + HEAT*: 15-25 min.
+        - >
+          LIGHTENING:
+          Apply the coloring mixture to mid-lengths and ends only:
+          Leave approximately 2 centimeters free from the scalp.
+          Development time: HEAT: 20 min/ + HEAT*: 10 min.
+          Root area: Apply coloring mixture to the roots.
+          Development time: - HEAT: 30-40 min /
+          + HEAT*: 15 -25 min
+          *Climazon
+    - id: 'color_touch'
+      name: 'Color Touch'
+      sub_name: 'Demi-permanent hair color'
+      image_url: 'https://www.wella.com/professional/m/_master/products/color_touch/New-Visuals/WELLA-color-touch-Emulsion_d.png'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/color_touch'
+      pdf_url: 'https://www.wella.com/professional/m/_master/products/color_touch_NEW/PDFs/Wella_COLOR_TOUCH_Technical_Folder.pdf'
+      mixing: >
+        RECOMMENDATION:
+        Always mix COLOR TOUCH with COLOR TOUCH Emulsion 1.9% or 4%.
+        Mix at a ratio of 1:2, e.g. 30 g Cream + 60 g Emulsion.
+      ratio: ''
+      application:
+        - >
+          FIRST TIME / FULL HEAD APPLICATION:
+          Wear suitable gloves.
+          Apply with brush and bowl.
+          For a more efficient application, we recommend using the applicator bottle.
+          Apply COLOR TOUCH mix to pre-shampooed, towel-dried hair – evenly from roots to ends.
+        - >
+          DEVELOPMENT TIMES:
+          Without heat – 20 minutes (or 15 minutes after a perm or straightening service).
+          With added heat (e.g. Climazon) – 15 minutes (or 10 minutes after a perm or straightening service).
+          If needed, the development time can be extended by 5 minutes.
+    - id: 'blondor'
+      name: 'BLONDOR'
+      sub_name: 'BLONDOR Multi-Blonde Powder'
+      image_url: 'https://www.wella.com/professional/m/_master/products/blondor/Packshots/Wella-Blondor-Multi-blonde-powder_d.jpg'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/multi_blonde_powder'
+      pdf_url: 'https://www.wella.com/professional/m/_enus/products/blondor/blondor_updates/WC_Eternal_Icons_Portfolio_Leaflet_HiRes.pdf'
+      mixing: >
+        RECOMMENDATION:
+        Mix with Koleston Perfect Crème Developer 6%, 9% or 12% or Color Touch
+        emulsion 1.9% or 4% in a ratio of 1:1.5 up to 1:2 in a non-metallic bowl.
+        If there is contact with the scalp (global or root application), use a 6% activator as a maximum.
+      ratio: ''
+      application:
+        - >
+          Apply evenly to the sections of unwashed hair.
+          The development time depends on the condition of the hair and the desired
+          blonde hair color result. Carefully check hair every 5–10 minutes during process.
+          The maximum total development time is 50 minutes.
+        - >
+          FIRST TIME APPLICATION:
+          Mid-lengths and ends in first step and root area as second step.
+    - id: 'magma_by_blondor'
+      name: 'Magma by BLONDOR'
+      sub_name: 'Lightener'
+      image_url: 'https://www.wella.com/professional/m/_master/products/magma/Packshots/Wella-Magma-Blondor-Packshot_d.jpg'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/magma_by_blondor'
+      pdf_url: 'https://www.wella.com/professional/m/_master/products/magma/PDFs/CCS_MAG_OP.pdf'
+      mixing: >
+        RECOMMENDATION:
+        MAGMA by BLONDOR can be used with all Wella Developers 1,9 % up to 12 % depending on the level of lift and tone intensity needed:
+        Koleston Perfect Crème Developer / Freelights Developer 12 % - Up to 6 levels
+        Koleston Perfect Crème Developer / Freelights Developer 9 % - Up to 5 levels
+        Koleston Perfect Crème Developer / Freelights Developer 6 % - Up to 4 levels
+        COLOR TOUCH Emulsion 4 % - Up to 3 levels
+        COLOR TOUCH Emulsion 1,9 % - Up to 2 levels
+      ratio: >
+        • Recommended mixing ratio for freehand techniques: 1:1.5 – 1:2 with Freelights developer 6 %, 9 %, 12 %
+        • Recommended mixing ratio for foiling techniques: 1:1.5 with Koleston Perfect Crème Developer 6 %, 9 %, 12 %
+        • Recommended mixing ratio for very soft results such as “Artistic Blending” service: 1:1.5 with  Koleston Perfect Crème Developer
+      application:
+        - >
+          DEVELOPMENT TIME:
+          Red shades: without heat: 30 - 60 minutes, with heat: 20 - 40 minutes
+          Blonde shades: without heat: 20 - 40 minutes, with heat: 15 - 30 minutes
+          After completion of the development time of, rinse thoroughly and shampoo.
+          To ensure the tone and lastingness of the color result, use Wella Professionals
+          MAGMA hair color Post Treatment
+        - >
+          APPLICATION ON ALREADY HIGHLIGHTENED HAIR:
+          The color results of MAGMA /89, MAGMA /39, MAGMA /36 can be too intensive
+          on very light/previously colored hair. In such cases always color the dark
+          untreated parts of the hair first and then emulsify the color through
+          the already lightened hair for the last 5 minutes of the development time.
+          If the above recommendations are not followed the tone can become too intensive.
+          To achieve optimum color results the use of MAGMA hair color is recommended
+          on hair colored evenly from roots to ends.
+    - id: 'blondor_freelights'
+      name: 'BLONDOR Freelights'
+      sub_name: 'Lightener'
+      image_url: 'https://www.wella.com/professional/m/_master/products/blondor/Packshots/Wella-Professionals-Blondor-Freelights-packshot_d.jpg'
+      product_url: 'https://www.wella.com/professional/en-US/products/color-information/freelights_white_lightening_powder'
+      pdf_url: 'https://www.wella.com/professional/m/_master/products/magma/PDFs/CCS_FL_OP-Update.pdf'
+      mixing: >
+        RECOMMENDATION:
+        Depending on the desired degree of lightening and consistency, mix the FREELIGHTS White Lightening Powder (A) with FREELIGHTS Developer (B),
+        · Vol. 20, 6 % (for gentle lift)
+        · Vol. 30, 9 % (extra lift)
+        · Vol. 40, 12 % (maximum lift)
+        in a non-metallic bowl.
+      ratio: >
+        Mixing Ratio 1 : 1 – 1 : 3
+        (recommended 1 : 1.5)
+        For on-scalp application, use a 6 % (20 vol.) developer as a maximum. Do not use heat.
+      application: >
+        Development time
+        Apply on dry hair. Start applying in a sweeping motion. Product should
+        be applied only on the strand surface area. Do not saturate the strand in the mixture.
+        Development time depends on the condition of the hair and the desired
+        level of lightening required. The maximum total development time is 50 minutes.
+        Check hair every 5–10 minutes during process. If adverse reaction occurs
+        during treatment (e.g. itching, burning, rash or any unexpected reaction),
+        stop and immediately rinse with lukewarm water. If necessary, seek medical treatment.

@@ -5,6 +5,7 @@ require 'hanami/view'
 require 'hanami/assets'
 require 'facebook/messenger'
 
+require_relative 'initializers/locale'
 require_relative '../lib/wella_bot_poc'
 require_relative '../apps/web/application'
 
