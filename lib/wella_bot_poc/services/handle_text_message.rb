@@ -27,7 +27,7 @@ class HandleTextMessage
   end
 
   def one_product_response
-    { text: ProductDetailsResponse.new(payload(products_from_input.first), recipient_id).messages.join(' ') }
+    { text: ProductDetailsResponse.new(payload(products_from_input.first), recipient_id).messages[0..1].join('') }
   end
 
   def show_quick_responses
@@ -69,7 +69,7 @@ class HandleTextMessage
         'mixing'
       when keywords_input == 'ratio'
         'ratio'
-      when keywords_input == 'application'
+      when %w(application apply).include?(keywords_input)
         'application'
     end
   end
