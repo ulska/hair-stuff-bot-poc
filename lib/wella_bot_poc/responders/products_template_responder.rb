@@ -1,6 +1,6 @@
-class FoundProductsResponder
+class ProductsTemplateResponder
   def respond
-    bot_deliver(message)
+    BotDeliverer.new(recipient_id, message).deliver
   end
 
   private
@@ -12,10 +12,6 @@ class FoundProductsResponder
     @user_input = user_input
   end
 
-  def bot_deliver(message)
-    Bot.deliver({ recipient: { id: recipient_id }, message: message }, access_token: ENV['ACCESS_TOKEN'])
-  end
-
   def message
     get_matching_products.any? ? matching_products_message : nothing_found_message
   end
@@ -25,6 +21,7 @@ class FoundProductsResponder
   end
 
   def matching_products_message
+    { text: I18n.t('messages.found_products') }
     { attachment: GenericTemplate.new(get_matching_products).to_hash }
   end
 

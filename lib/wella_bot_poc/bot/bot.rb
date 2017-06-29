@@ -4,7 +4,7 @@ Bot.on :message do |message|
   recipient_id = message.sender['id']
 
   SenderActionsResponder.new.respond(recipient_id)
-  FoundProductsResponder.new(recipient_id, message.text).respond
+  MessageAction.new(recipient_id, message).set
 end
 
 Bot.on :postback do |postback|

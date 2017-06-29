@@ -18,7 +18,7 @@ class GenericTemplateElement
   end
 
   def buttons
-    [{ type: 'postback', title: 'Mixing instructions', payload: "mixing|#{product_id}" },
+    [{ type: 'postback', title: 'Mixing/ratio info', payload: "mixingratio|#{product_id}" },
      { type: 'postback', title: 'Application info', payload: "application|#{product_id}" },
      { type: 'web_url', title: 'Show PDF', url: product['pdf_url'] }]
   end

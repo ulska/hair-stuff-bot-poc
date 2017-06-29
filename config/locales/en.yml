@@ -1,13 +1,22 @@
 en:
   messages:
-    mixing: 'MIXING AND RATIO INFORMATION FOR %{name} - %{sub_name}:'
+    mixing_ratio: 'MIXING AND RATIO INFORMATION FOR %{name} - %{sub_name}:'
+    mixing: 'MIXING INFORMATION FOR %{name} - %{sub_name}:'
+    ratio: 'RATIO INFORMATION FOR %{name} - %{sub_name}:'
     application: 'APPLICATION INSTRUCTIONS FOR %{name} - %{sub_name}:'
-    nothing_found: 'No matching products found :( Try again!'
+    which_products: "I've found more than one product! Which one would you like to check?"
+    found_products: "I've found some products you may be interested in :)"
+    nothing_found: "Unfortunately I didn't find anything :( Try again!"
+    help: >
+      This Bot can help you search through selected Wella hair products for Professionals
+      and their mixing/ratio/application recommendations.
+      E.g. when you type 'Color Renew application' - the Bot will send you direct information
+      of how to apply Color Renew product. Have fun! :)
   products:
     - id: 'color_renew'
       name: 'Color Renew'
       sub_name: 'The zero damage color reducer'
-      image_url: 'http://i.imgur.com/Op9ThXm.png'
+      image_url: 'http://i.imgur.com/C9iRUTO.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/color_renew'
       pdf_url: 'https://www.wella.com/professional/m/_enus/products/color_renew/Color-Renew-Tech-Guide.pdf'
       mixing: >
@@ -25,7 +34,7 @@ en:
     - id: 'koleston_perfect'
       name: 'Koleston Perfect'
       sub_name: 'The professional hair product'
-      image_url: 'http://i.imgur.com/xlZuDG8.png'
+      image_url: 'http://i.imgur.com/7lH8xO2.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/koleston_perfect'
       pdf_url: 'https://www.wella.com/professional/m/_master/products/koleston_perfect/Koleston-Perfect-fact-sheet.pdf'
       mixing:
@@ -61,7 +70,7 @@ en:
     - id: 'illumina_color'
       name: 'Illumina Color'
       sub_name: 'Incredible light reflection'
-      image_url: 'https://www.wella.com/professional/m/_master/products/illumina_color/New-Visuals/Wella-GreyBlending-Color-IlluminaColor_d.png'
+      image_url: 'http://i.imgur.com/5ta7KsZ.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/illumina_color'
       pdf_url: 'https://www.wella.com/professional/m/_master/products/illumina_color/New-Visuals/Luxe-Bronde-update/Illumina-color-technical-folder.pdf'
       mixing: >
@@ -94,8 +103,8 @@ en:
           *Climazon
     - id: 'color_touch'
       name: 'Color Touch'
-      sub_name: 'Demi-permanent hair color'
-      image_url: 'https://www.wella.com/professional/m/_master/products/color_touch/New-Visuals/WELLA-color-touch-Emulsion_d.png'
+      sub_name: 'Demi - permanent hair color'
+      image_url: 'http://i.imgur.com/MrhYWXj.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/color_touch'
       pdf_url: 'https://www.wella.com/professional/m/_master/products/color_touch_NEW/PDFs/Wella_COLOR_TOUCH_Technical_Folder.pdf'
       mixing: >
@@ -118,7 +127,7 @@ en:
     - id: 'blondor'
       name: 'BLONDOR'
       sub_name: 'BLONDOR Multi-Blonde Powder'
-      image_url: 'https://www.wella.com/professional/m/_master/products/blondor/Packshots/Wella-Blondor-Multi-blonde-powder_d.jpg'
+      image_url: 'http://i.imgur.com/7EnTSGp.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/multi_blonde_powder'
       pdf_url: 'https://www.wella.com/professional/m/_enus/products/blondor/blondor_updates/WC_Eternal_Icons_Portfolio_Leaflet_HiRes.pdf'
       mixing: >
@@ -139,7 +148,7 @@ en:
     - id: 'magma_by_blondor'
       name: 'Magma by BLONDOR'
       sub_name: 'Lightener'
-      image_url: 'https://www.wella.com/professional/m/_master/products/magma/Packshots/Wella-Magma-Blondor-Packshot_d.jpg'
+      image_url: 'http://i.imgur.com/688svfM.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/magma_by_blondor'
       pdf_url: 'https://www.wella.com/professional/m/_master/products/magma/PDFs/CCS_MAG_OP.pdf'
       mixing: >
@@ -174,7 +183,7 @@ en:
     - id: 'blondor_freelights'
       name: 'BLONDOR Freelights'
       sub_name: 'Lightener'
-      image_url: 'https://www.wella.com/professional/m/_master/products/blondor/Packshots/Wella-Professionals-Blondor-Freelights-packshot_d.jpg'
+      image_url: 'http://i.imgur.com/LdInpZ9.png'
       product_url: 'https://www.wella.com/professional/en-US/products/color-information/freelights_white_lightening_powder'
       pdf_url: 'https://www.wella.com/professional/m/_master/products/magma/PDFs/CCS_FL_OP-Update.pdf'
       mixing: >
