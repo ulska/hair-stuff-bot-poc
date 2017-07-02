@@ -1,17 +1,6 @@
 class HandleTextMessage
   def send
-    case
-      when keywords_input && products_from_input.any?
-        deliver(set_response)
-      when keywords_input
-        deliver(all_products_response)
-      when input_includes_any?(I18n.t('help', locale: :key_words))
-        deliver({ text: I18n.t('messages.help') })
-      when input_includes_any?(I18n.t('greetings', locale: :key_words))
-        deliver({ text: I18n.t('messages.welcome_message', name: user_name) })
-      else
-        respond_with_template
-    end
+    respond_with_message || respond_with_template
   end
 
   private
@@ -21,6 +10,19 @@ class HandleTextMessage
   def initialize(recipient_id, user_input)
     @recipient_id = recipient_id
     @user_input = user_input
+  end
+
+  def respond_with_message
+    case
+      when keywords_input && products_from_input.any?
+        deliver(set_response)
+      when keywords_input
+        deliver(all_products_response)
+      when input_includes_any?(I18n.t('help', locale: :key_words))
+        deliver({ text: I18n.t('messages.help') })
+      when input_includes_any?(I18n.t('greetings', locale: :key_words))
+        deliver({ text: I18n.t('messages.welcome_message', name: user_name) })
+    end
   end
 
   def input
@@ -73,16 +75,9 @@ class HandleTextMessage
   end
 
   def set_payload
-    case
-      when %w(use using usage).include?(keywords_input)
-        'mixingratio'
-      when %w(mixing mix).include?(keywords_input)
-        'mixing'
-      when keywords_input == 'ratio'
-        'ratio'
-      when %w(application apply).include?(keywords_input)
-        'application'
-    end
+    I18n.t('predefined_input', locale: :key_words).select do |key, hash|
+      hash.include?(keywords_input)
+    end.keys.first.to_s
   end
 
   def get_matching_products(item)

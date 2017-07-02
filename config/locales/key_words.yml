@@ -21,3 +21,17 @@ key_words:
     - application
     - apply
     - appli
+  predefined_input:
+    mixingratio:
+      - use
+      - using
+      - usage
+    mixing:
+      - mixing
+      - mix
+    ratio:
+      - ratio
+    application:
+      - application
+      - apply
+      - appli
