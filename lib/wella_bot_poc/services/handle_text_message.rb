@@ -1,11 +1,14 @@
 class HandleTextMessage
   def send
-    if keywords_input && products_from_input.any?
-      BotDeliverer.new(recipient_id, set_response).deliver
-    elsif input.include?('help')
-      BotDeliverer.new(recipient_id, { text: I18n.t('messages.help') }).deliver
-    else
-      respond_with_template
+    case
+      when keywords_input && products_from_input.any?
+        deliver(set_response)
+      when input_includes_any?(%w(help))
+        deliver({ text: I18n.t('messages.help') })
+      when input_includes_any?(%w(hi hello czesc helo halo hejo yo))
+        deliver({ text: I18n.t('messages.welcome_message', name: user_name) })
+      else
+        respond_with_template
     end
   end
 
@@ -19,7 +22,7 @@ class HandleTextMessage
   end
 
   def input
-    @input ||= user_input.downcase
+    @input ||= user_input.downcase.gsub(/[^a-z0-9\s]/i, '')
   end
 
   def set_response
@@ -78,5 +81,17 @@ class HandleTextMessage
     I18n.t('products').select do |product|
       product['name'].downcase.include?(item)
     end
+  end
+
+  def deliver(message)
+    BotDeliverer.new(recipient_id, message).deliver
+  end
+
+  def user_name
+    GetUserData.new(recipient_id).name
+  end
+
+  def input_includes_any?(key_words)
+    input.split(' ').map { |word| key_words.include?(word) }.include?(true)
   end
 end

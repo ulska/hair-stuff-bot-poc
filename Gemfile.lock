@@ -51,6 +51,8 @@ GEM
     facebook-messenger (0.11.1)
       httparty (~> 0.13, >= 0.13.7)
       rack (>= 1.6.4)
+    faraday (0.11.0)
+      multipart-post (>= 1.2, < 3)
     hanami (1.0.0.beta1)
       bundler (~> 1.13)
       concurrent-ruby (~> 1.0)
@@ -113,6 +115,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.2)
     multi_xml (0.6.0)
+    multipart-post (2.0.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     pg (0.21.0)
@@ -171,6 +174,7 @@ DEPENDENCIES
   capybara
   dotenv (~> 2.0)
   facebook-messenger
+  faraday
   hanami (= 1.0.0.beta1)
   hanami-assets
   hanami-bootstrap

@@ -1,5 +1,9 @@
 en:
   messages:
+    welcome_message: >
+      Hi %{name}! How can I help you? :) You can search through selected
+      Wella hair products for Professionals and find information about
+      their mixing/ratio/application recommendations.
     mixing_ratio: 'MIXING AND RATIO INFORMATION FOR %{name} - %{sub_name}:'
     mixing: 'MIXING INFORMATION FOR %{name} - %{sub_name}:'
     ratio: 'RATIO INFORMATION FOR %{name} - %{sub_name}:'

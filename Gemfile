@@ -13,6 +13,7 @@ gem 'facebook-messenger'
 gem 'hanami-assets'
 gem 'hanami-bootstrap'
 gem 'i18n'
+gem 'faraday'
 
 group :development do
   # Code reloading
