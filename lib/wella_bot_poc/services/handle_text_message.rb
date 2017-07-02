@@ -3,9 +3,11 @@ class HandleTextMessage
     case
       when keywords_input && products_from_input.any?
         deliver(set_response)
-      when input_includes_any?(%w(help))
+      when keywords_input
+        deliver(all_products_response)
+      when input_includes_any?(I18n.t('help', locale: :key_words))
         deliver({ text: I18n.t('messages.help') })
-      when input_includes_any?(%w(hi hello czesc helo halo hejo yo))
+      when input_includes_any?(I18n.t('greetings', locale: :key_words))
         deliver({ text: I18n.t('messages.welcome_message', name: user_name) })
       else
         respond_with_template
@@ -34,11 +36,17 @@ class HandleTextMessage
   end
 
   def show_quick_responses
-    { text: I18n.t('messages.which_products'), quick_replies: quick_replies }
+    { text: I18n.t('messages.which_products'),
+      quick_replies: build_quick_replies(products_from_input) }
   end
 
-  def quick_replies
-    products_from_input.map do |product|
+  def all_products_response
+    { text: I18n.t('messages.all_products'),
+      quick_replies: build_quick_replies(I18n.t('products')) }
+  end
+
+  def build_quick_replies(products)
+    products.map do |product|
       { content_type: 'text', title: "#{product['name']}",
         payload: payload(product) }
     end
@@ -57,11 +65,11 @@ class HandleTextMessage
   end
 
   def products_from_input
-    input.split(' ').map { |in_part| get_matching_products(in_part) }.flatten
+    input.split(' ').map { |in_part| get_matching_products(in_part) }.flatten.uniq
   end
 
   def keywords_input
-    %w(use using usage mixing mix ratio application).select { |w| input =~ /#{w}/ }.first
+    I18n.t('info_kind', locale: :key_words).select { |w| input =~ /#{w}/ }.first
   end
 
   def set_payload

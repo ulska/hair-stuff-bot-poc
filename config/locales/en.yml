@@ -9,6 +9,9 @@ en:
     ratio: 'RATIO INFORMATION FOR %{name} - %{sub_name}:'
     application: 'APPLICATION INSTRUCTIONS FOR %{name} - %{sub_name}:'
     which_products: "I've found more than one product! Which one would you like to check?"
+    all_products: >
+      You didn't specify product you want to check.
+      Here are all products - pick one to get more details :)
     found_products: "I've found some products you may be interested in :)"
     nothing_found: "Unfortunately I didn't find anything :( Try again!"
     help: >
