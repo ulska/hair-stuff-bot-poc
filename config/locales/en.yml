@@ -19,6 +19,8 @@ en:
       and their mixing/ratio/application recommendations.
       E.g. when you type 'Color Renew application' - the Bot will send you direct information
       of how to apply Color Renew product. Have fun! :)
+  facebook_urls:
+    user_profile: 'https://graph.facebook.com/v2.6/%{messenger_id}?fields=first_name&access_token=%{access_token}'
   products:
     - id: 'color_renew'
       name: 'Color Renew'

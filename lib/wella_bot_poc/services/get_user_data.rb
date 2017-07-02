@@ -8,19 +8,19 @@ class GetUserData
   attr_reader :messenger_id
 
   def initialize(messenger_id)
-    @messenger_id =  messenger_id
-  end
-
-  def user_request
-    Faraday.get user_profile
+    @messenger_id = messenger_id
   end
 
   def user_data
     JSON.parse(user_request.body)
   end
 
-  def user_profile
-    "https://graph.facebook.com/v2.6/#{messenger_id}"\
-    "?fields=first_name&access_token=#{ENV['ACCESS_TOKEN']}"
+  def user_request
+    Faraday.get(user_profile_url)
+  end
+
+  def user_profile_url
+    I18n.t('facebook_urls.user_profile', messenger_id: messenger_id,
+           access_token: ENV['ACCESS_TOKEN'])
   end
 end
