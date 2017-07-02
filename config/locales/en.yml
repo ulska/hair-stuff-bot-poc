@@ -8,7 +8,7 @@ en:
     mixing: 'MIXING INFORMATION FOR %{name} - %{sub_name}:'
     ratio: 'RATIO INFORMATION FOR %{name} - %{sub_name}:'
     application: 'APPLICATION INSTRUCTIONS FOR %{name} - %{sub_name}:'
-    which_products: "I've found more than one product! Which one would you like to check?"
+    which_products: "I've found more than one matching products! Which one would you like to check?"
     all_products: >
       You didn't specify product you want to check.
       Here are all products - pick one to get more details :)
@@ -119,8 +119,7 @@ en:
       mixing: >
         RECOMMENDATION:
         Always mix COLOR TOUCH with COLOR TOUCH Emulsion 1.9% or 4%.
-        Mix at a ratio of 1:2, e.g. 30 g Cream + 60 g Emulsion.
-      ratio: ''
+      ratio: 'Mix at a ratio of 1:2, e.g. 30 g Cream + 60 g Emulsion.'
       application:
         - >
           FIRST TIME / FULL HEAD APPLICATION:
@@ -143,8 +142,7 @@ en:
         RECOMMENDATION:
         Mix with Koleston Perfect Crème Developer 6%, 9% or 12% or Color Touch
         emulsion 1.9% or 4% in a ratio of 1:1.5 up to 1:2 in a non-metallic bowl.
-        If there is contact with the scalp (global or root application), use a 6% activator as a maximum.
-      ratio: ''
+      ratio: 'If there is contact with the scalp (global or root application), use a 6% activator as a maximum.'
       application:
         - >
           Apply evenly to the sections of unwashed hair.
